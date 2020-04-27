@@ -1,0 +1,109 @@
+@font-face {
+	font-family: Atari;
+	src: url(AtariClassicChunky-PxXP.ttf);
+}
+
+html {
+	height: 100%;
+	padding: 0px;
+}
+
+
+body {
+	background-image: url('background.svg');
+	background-position-x: 50%;
+	background-position-y: 50%;
+	background-size: cover;
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	text-align: center;
+	align-items: center;
+	margin: auto;
+}
+
+
+
+/*
+body {
+	background-color: burlywood;
+	padding: 0px;
+	margin: 0px;
+
+}
+
+*/
+.grid {
+	border: 10px solid;
+	border-color: #2e0d46;
+	display: flex;
+	flex-wrap: wrap;
+	height: 300px;
+	width: 350px;
+	background-color: #b75cf3;
+	margin: auto;
+	margin-top: 30px;
+}
+
+.grid div {
+	height: 50px;
+	width: 50px;
+
+}
+
+.player-one {
+	background-color: red;
+	border-radius: 50%;
+}
+
+.player-one-winner {
+	background-color: rgb(255, 71, 71);
+	border-radius: 50%;
+}
+
+.player-two {
+	background-color: blue;
+	border-radius: 50%;
+}
+
+.player-two-winner {
+	background-color: rgb(92, 92, 255);
+	border-radius: 50%;
+}
+
+.logo {
+	text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+	font-family: Atari;
+	font-size: 50px;
+	width: 100%;
+	text-align: center;
+	margin-top: 30px;
+	color: #a620ff;
+}
+
+#reload-btn {
+	background-color: #2e0d46;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	padding: 20px;
+	font-size: 20px;
+	color: #a620ff;
+	font-family: Atari;
+	border-color: #2e0d46;
+}
+
+#result{
+	text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+	font-family: Atari;
+	font-size: 50px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.footer {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 30px;
+	font-family: Atari;
+	color: #a620ff;
+	text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+}
