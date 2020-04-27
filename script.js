@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         displayCurrentPlayer.style.color = 'red'
                     }
                     //if the sqaure below your current swqaure is not taken, you can't go there
-                    } else alert("Can't go here")
+                    } //else alert("Can't go here")
                 }
             }
     })(i)
