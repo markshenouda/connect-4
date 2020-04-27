@@ -2,10 +2,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const squares = document.querySelectorAll('.grid div')
     const result = document.querySelector('#result')
     const displayCurrentPlayer = document.querySelector('#current-player')
-    const bgMusic = document.querySelector('#bgmusic')
     let currentPlayer = 1
 
-    //bgMusic.play()
 
     for (var i = 0, len = squares.length; i < len; i++)
 
@@ -31,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         displayCurrentPlayer.style.color = 'red'
                     }
                     //if the sqaure below your current swqaure is not taken, you can't go there
-                    } else alert('cant go here')
+                    } else alert("Can't go here")
                 }
             }
     })(i)
